@@ -45,7 +45,7 @@
     <!-- OnlineUrl (https://make.powerapps.com , https://make.preview.powerapps.com) -->
     <Parameter name="OnlineUrl" value=""  />
     <!-- CloudIdentity,FederatedIdentity,PassThrough -->
-    <Parameter name="LoginMethod" value=""  />
+    <Parameter name="LoginMethod" value="CloudIdentity"  />
     <!-- Chrome,Firefox -->
     <Parameter name="BrowserType" value="Chrome" />
     <Parameter name="DriversPath" value="" />
