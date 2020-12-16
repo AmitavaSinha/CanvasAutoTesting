@@ -91,7 +91,7 @@ namespace Microsoft.PowerApps.TestAutomation.Tests
                                     // CloudIdentity uses standard Office 365 sign-in service
                                     if (_loginMethod == "CloudIdentity")
                                     {
-                                         Console.WriteLine(_xrmUri + " URI "+ _username + " USER NAME "+ _password + " Password ")
+                                        Console.WriteLine(_xrmUri + " URI "+ _username + " USER NAME "+ _password + " Password ");
                                         appBrowser.OnlineLogin.Login(_xrmUri, _username.ToSecureString(), _password.ToSecureString());
                                         break;
                                     }
