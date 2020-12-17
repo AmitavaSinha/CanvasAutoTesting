@@ -91,7 +91,8 @@ namespace Microsoft.PowerApps.TestAutomation.Api
             var redirect = false;
             // bool online = !(this.OnlineDomains != null && !this.OnlineDomains.Any(d => uri.Host.EndsWith(d)));
             driver.Navigate().GoToUrl(uri);
-
+            Console.WriteLine(username + "User Name "+ password + " Password ");
+            Debug.WriteLine(username + "User Name "+ password + " Password ");
             if (driver.IsVisible(By.Id("use_another_account_link")))
                 driver.ClickWhenAvailable(By.Id("use_another_account_link"));
 
